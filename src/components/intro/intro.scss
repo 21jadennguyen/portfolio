@@ -1,0 +1,64 @@
+@import "../../global.scss";
+
+.intro{
+    background-color: $mainColor;
+    display: flex;
+
+    .left {
+        flex: 0.5;
+        overflow: hidden;
+
+        .imgContainer{
+            margin-top: 40px;
+            width: 560px;
+            height: 560px;
+            background-color: crimson;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .right{
+        flex: 0.5;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .wrapper1{
+                
+                h1{
+                    font-size: 30px;
+                    color: white;
+                }
+    
+                h2 {
+                    font-size: 60px;
+                    color: white;
+                }
+            }
+            .arrow{
+                width: 40px;
+                bottom: 40px;
+            }
+            .arrow a{
+                position: absolute;
+                bottom: 50px;
+
+                .img{
+                    bottom: 10%;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
