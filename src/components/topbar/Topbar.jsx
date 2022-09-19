@@ -26,7 +26,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                         <LinkedIn className='icon'/>
-                        <span>https://www.linkedin.com/in/jaden-nguyen-b1876b220/</span>
+                        <span>https://www.linkedin.com/in/21jadennguyen</span>
                     </div>
                 </div>
             </div>   

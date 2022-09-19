@@ -13,6 +13,11 @@ export default function Portfolio() {
                     <h3>Unity Game</h3>
                 </div>
             </div>
+                <div className="arrow">
+                    <a href="#works">
+                        <img src="assets/downarrow.png" className="arrow" alt=""/>
+                    </a>
+                </div>
         </div>
     )
 }
