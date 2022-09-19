@@ -6,7 +6,7 @@ import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
 import Menu from "./components/menu/Menu";
 import "./app.scss"
-import { useState } from "react";
+import { useState } from "react"; 
 
 /*
 // Import the functions you need from the SDKs you need
