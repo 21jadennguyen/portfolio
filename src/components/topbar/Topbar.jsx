@@ -25,8 +25,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                         <span>845-287-9234</span>
                     </div>
                     <div className="itemContainer">
-                        <LinkedIn className='icon'/>
-                        <span>https://www.linkedin.com/in/21jadennguyen</span>
+                        <a style = {{color: 'white'}} href="https://www.linkedin.com/in/21jadennguyen"><LinkedIn className='icon'/></a>
                     </div>
                 </div>
             </div>   
