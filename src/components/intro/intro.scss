@@ -7,9 +7,11 @@
     .left {
         flex: 0.5;
         overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         .imgContainer{
-            margin-top: 40px;
             width: 560px;
             height: 560px;
             background-color: crimson;
